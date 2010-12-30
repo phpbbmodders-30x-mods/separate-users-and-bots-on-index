@@ -46,8 +46,8 @@
 		</open>
 		<open src="includes/functions.php">
 			<edit>
-				<find><![CDATA[      'guests_online'         => 0,]]></find>
-				<action type="after-add"><![CDATA[      'bots_online'         => 0,]]></action>
+				<find><![CDATA[		'guests_online'			=> 0,]]></find>
+				<action type="after-add"><![CDATA[		'bots_online'			=> 0,]]></action>
 			</edit>
 			<edit>
 				<find><![CDATA[         global $config, $db, $user, $auth;]]></find>
@@ -77,7 +77,7 @@
       'BOT'      => array('bots_online', 'l_b_user_s', 0),]]></action>
 			</edit>
 			<edit>
-				<find><![CDATA[      if ($var_ary[2])]]></find>
+				<find><![CDATA[		if ($var_ary[2])]]></find>
 				<action type="replace-with"><![CDATA[      if (isset($var_ary[3]) && $var_ary[3])]]></action>
 			</edit>
 			<edit>

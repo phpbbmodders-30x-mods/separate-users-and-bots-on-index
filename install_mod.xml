@@ -72,8 +72,8 @@
                }]]></action>
 			</edit>
 			<edit>
-				<find><![CDATA[      'GUEST'      => array('guests_online', 'l_g_user_s', 0)]]></find>
-				<action type="replace-with"><![CDATA[      'GUEST'      => array('guests_online', 'l_g_user_s', 0),
+				<find><![CDATA[		'GUEST'		=> array('guests_online', 'l_g_user_s', 0)]]></find>
+				<action type="replace-with"><![CDATA[		'GUEST'		=> array('guests_online', 'l_g_user_s', 0),
       'BOT'      => array('bots_online', 'l_b_user_s', 0),]]></action>
 			</edit>
 			<edit>
